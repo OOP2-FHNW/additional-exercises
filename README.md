@@ -12,8 +12,6 @@ Schreiben Sie Ihre Lösungen der Aufgaben in das Aufgaben-Package des Assignemen
 1. Schreiben Sie eine Klasse `MyIntParser`, welche die statische Methode `parse(String string)` besitzt. Parsen Sie den String mithilfe der Klasse `Integer` zu einem `int` und geben Sie diesen `int` Wert zurück. Fangen Sie die mögliche `NumberFormatException` ab und geben Sie im Fehlerfall stattdessen `0` zurück.
 2. Schreiben Sie eine `NumberScanner` Klasse. Diese Klasse hat eine statische Methode `readInt()`, welche einen `int` liest und zurückgibt. Bei jedem Aufruf soll in dieser Methode ein neuer `java.util.Scanner` erzeugt werden. Mit diesem Scanner wird von `System.in` gelesen und nach dem Lesen und vor dem Verlassen der Methode wird der Scanner gleich wieder geschlossen. Sorgen Sie dafür, dass der Scanner immer geschlossen wird, auch wenn eine Exception geworfen wird.
 3. Modifizieren Sie Ihre Klasse `MyIntParser` von oben. Schreiben Sie eine eigene **checked** Exception `WrongInputException` und werfen Sie diese Exception, falls etwas schiefläuft. Was müssen Sie alles verändern?
-4. Bauen Sie das Szenario der LE01, Folien 19-22 mit **checked** Exceptions nach. Experimentieren Sie damit.
-
 
 ### 2. Collections
 1. Variable Anzahl von Parametern (Varargs). Schreiben Sie eine Methode, die das Maximum einer beliebig langen Folge von int-Parametern berechnet und als Funktionswert zurückgibt.
