@@ -8,7 +8,7 @@ Schreiben Sie Ihre Lösungen der Aufgaben in das Aufgaben-Package des Assignemen
 
 Einige der Übungen wurden aus den folgenden Büchern übernommen, oder  durch diese Bücher inspiriert: 
 - Sprechen Sie Java, Dpunkt.Verlag, Hanspeter Mössenböck, 2014
-- Core Java for the Inpatient, Pearson Eduction Inc. Cay S. Horstmann, 2018
+- Core Java for the Impatient, Pearson Eduction Inc. Cay S. Horstmann, 2018
 
 Autoren: Stefan Meichtry, ...
 
