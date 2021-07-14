@@ -1,10 +1,16 @@
-# Zusätzliche Übungsaufgaben OOOP2
+# Zusätzliche Übungsaufgaben FHNW, OOP2
 
 Schreiben Sie für alle Aufgaben JUnit Tests. Schreiben Sie die Tests zuerst und dann die Implementation. Orientieren Sie sich dazu an den AB und UB der Lerneinheiten.
 
 Für alle Aufgaben gilt: Sie können alle Java-Mittel, welche Sie bereits kennengelernt haben, verwenden, ausser es ist ausdrücklich etwas anderes vermerkt.
 
 Schreiben Sie Ihre Lösungen der Aufgaben in das Aufgaben-Package des Assignements, also z.B. `exceptions`, oder `collections`. Sie finden dort für jede Aufgabe ein eigenes Package: z.B. `aufgabe1`, `aufgabe2`, etc.
+
+Einige der Übungen wurden aus den folgenden Büchern übernommen, oder  durch diese Bücher inspiriert: 
+- Sprechen Sie Java, Dpunkt.Verlag, Hanspeter Mössenböck, 2014
+- Core Java for the Inpatient, Pearson Eduction Inc. Cay S. Horstmann, 2018
+
+Autoren: Stefan Meichtry, ...
 
 ## Aufgaben
 
