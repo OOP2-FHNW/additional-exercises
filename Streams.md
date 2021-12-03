@@ -1,0 +1,13 @@
+# Streams
+Lösen Sie die folgenden Aufgaben mit Streams.
+1. Schreiben Sie eine Klasse `Farbstift`. Die Klasse hat einen Konstruktor `Farbstift(String farbe, String productId)` und die Operationen `String getFarbe()` und `String getProductId()`. Erzeugen Sie eine Liste von Farbstiften mit verschiedenen Farben, pro Farbe gibt es eine `productId`. Zwei Farbstifte sind gleich, wenn sie die gleiche `productId` haben. Lösen Sie die folgenden Aufgaben mit Streams. Schreiben Sie die Lösung direkt in die Testklasse: 
+   - Geben Sie vorkommenden Farben als Menge aus
+   - Geben Sie alle Produkt-ID's sortiert aus
+   - Geben Sie die Produkt-ID der grünen und roten Farbstifte sortiert und ohne Duplikate aus
+   - Zählen Sie die Anzahl der roten Stifte
+2. Wir erzeugen einen endlichen Stream von Strings. Schreiben Sie eine Klasse `Strings` und darin eine statische Operation `double lengthAverage(String[] strings)`, welche die durchschnittliche Länge der vorkommenden Strings berechnet. Tipp: Konsultieren Sie dazu die PL.
+3. Schreiben Sie eine Klasse `Person`. Diese Klasse enthält den Namen einer Person. Es gibt also einen Konstruktor `Person(String name)` und die Methode `String getName()`. Erzeugen Sie eine Liste von Personen. Gruppieren Sie die Personen dieser Liste in zwei Gruppen: Die Gruppe mit einer ungeraden Länge des Namens und die mit der geraden Länge. Schreiben Sie eine statische Operation `Map<Boolean, List<Person>> group(List<Person> persons)` in die Klasse `Person`. Brauchen Sie dazu ausschliesslich Streams. Tipp: PL, Grouping.
+4. Erzeugen Sie einen Stream von ganzen Zahlen von 1 bis 100. Summieren Sie diese Zahlen mit der Terminal-Operation `reduce`. Schreiben Sie Ihre Stream-Lösung direkt in eine Testklasse.
+5. Erzeugen Sie einen Stream von Listen von ganzen Zahlen, also z.B.: `[[19, 2], [2, 3, 5], [2, 7, 11, 2]]`. Geben Sie die Menge der vorkommenden Zahlen als Set aus: `{ 2, 3, 5, 7, 11, 19}`. Verwenden Sie eine Set-Implementation, welche eine natürliche Ordnung verwendet. Schreiben Sie dazu die statische Methode `Set<Integer> Mapper.flat(List<List<Integer>> lists)`
+6. Gleiche Aufgabe wie oben, aber jetzt mit einem Array von `int`-Arrays. Geben Sie die Zahlen statt als Set als geordneter `int`-Array zurück. Schreiben Sie diese statische Methode ebenfalls in die Klasse `Mapper`.
+7. Erfinden Sie eine eigene Aufgabe analog der Transaction-Trader Aufgabe in den AB. Gegeben ist also eine Klasse (z.B. Transaction), welche eine Referenz auf eine andere Klasse (z.B. Trader) hat. Führen Sie Filtrierungen, Transformationen, etc. auf einem Stream solcher Elemente aus.
